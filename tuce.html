@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/getBrowserInfo.js"></script>
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/tuce.css">
+    <style>
+        .mask_box {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            -webkit-transform: translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            -o-transform: translate(-50%,-50%);
+            z-index: 9999;
+            display: none;
+            text-align:center;
+        }
+        img {
+            vertical-align: middle;
+        }
+
+    </style>
+</head>
+<body class="tuce">
+<nav class="nav_header">
+    <div class="container-fluid">
+        <!--logo图片-->
+        <div class="nav_logo">
+            <img src="img/logo.png" alt="少女前线">
+        </div>
+        <!--右边的三个按钮-->
+        <div class="nav_btn">
+            <a href="#" class="btn_login">登录</a>
+            <a href="#" class="btn_reg">注册</a>
+            <a href="javascript:" class="btn_query cxq ">账号自助查询</a>
+        </div>
+        <!--中间的导航栏-->
+        <div class="nav_nav clearfix">
+            <ul class="nav_ul">
+                <li class=""><a href="MyProject.html">首页<span class="nav_bottom_line"></span></a></li>
+                <li class=""><a href="qbj.html">情报局<span class="nav_bottom_line"></span></a></li>
+                <li class=""><a href="http://www.gfwiki.org/w/%E9%A6%96%E9%A1%B5">图鉴<span class="nav_bottom_line"></span></a></li>
+                <li class="active_btn"><a href="#">图册<span class="nav_bottom_line"></span></a></li>
+                <li class=""><a href="MyProject.html#a5">世界观<span class="nav_bottom_line"></span></a></li>
+                <li class=""><a href="MyProject.html#a6">时间线<span class="nav_bottom_line"></span></a></li>
+                <li class=""><a href="https://bbs.nga.cn/thread.php?fid=-547859&rand=659" target="_blank">16LAB <br> 研究院<span class="nav_bottom_line"></span></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="main_con clearfix">
+    <div class="av_menu clearfix" id="">
+
+        <a href="javascript:;" class="on"  data-target="d1"  data-type="pic" data-id="3" data-page="2">同人绘图 </a>
+
+        <a href="javascript:;" class=""   data-target="d2" data-type="pic" data-id="4">四格漫画 </a>
+
+        <a href="javascript:;" class=""  data-target="d3"  data-type="pic" data-id="5">游戏壁纸 </a>
+
+        <a href="javascript:;" class=""  data-target="d4"  data-type="pic" data-id="6">表情包 </a>
+
+
+
+    </div>
+    <div class="av_group clearfix">
+
+        <div class="av_list clearfix" data-index="0" id="d1">
+            <div class="addScroll mCustomScrollbar _mCS_1"><div class="mCustomScrollBox mCS-light" id="mCSB_1" style="position:relative; height:100%; overflow:hidden; max-width:100%;"><div class="mCSB_container" style="position: relative; top: 0px;">
+
+                <div class="av_item pic" data-id="5">
+                    <div class="av_img"><img src="img/6c8acad8gw1f5udab15yjj20rs0jmgoq.jpg" alt="战术少女" title="战术少女" class="D1"></div>
+                    <h3>战术少女</h3>
+                    <p>NTW-20</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="6">
+                    <div class="av_img"><img src="img/0068Xz9bgw1f5ud7ran59j30u70joafl.jpg" alt="MP5" title="MP5" class="D2"></div>
+                    <h3>MP5</h3>
+                    <p>请下达命令！</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="31">
+                    <div class="av_img"><img src="img/01.jpg" alt="国际象棋" title="国际象棋" class="D3"></div>
+                    <h3>国际象棋</h3>
+                    <p>维尔德与格林娜小姐~</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="32">
+                    <div class="av_img"><img src="img/006tSrspgw1f9ilrllyiuj31kw28gahb.jpg" alt="万圣节的WA2000" title="万圣节的WA2000" class="D4"></div>
+                    <h3>万圣节的WA2000</h3>
+                    <p>阴影沙发上的少女</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="34">
+                    <div class="av_img"><img src="img/010.jpg" alt="UMP9的万圣节祝福" title="UMP9的万圣节祝福 class=D5"></div>
+                    <h3>UMP9的万圣节祝福</h3>
+                    <p>指挥官，不给糖就捣蛋哦~</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="38">
+                    <div class="av_img"><img src="img/014.png" alt="少女前线！" title="少女前线！" class="D6"></div>
+                    <h3>少女前线！</h3>
+                    <p>战火中的少女</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="42">
+                    <div class="av_img"><img src="img/018.jpg" alt="格里芬小酒馆" title="格里芬小酒馆" class="D7"></div>
+                    <h3>格里芬小酒馆</h3>
+                    <p>要一起喝吗？</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="43">
+                    <div class="av_img"><img src="img/019.jpg" alt="格里芬厨房" title="格里芬厨房" class="D8"></div>
+                    <h3>格里芬厨房</h3>
+                    <p>指挥官，今天要吃点什么呢？</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="47">
+                    <div class="av_img"><img src="img/024.jpg" alt="日常" title="日常" class="D9"></div>
+                    <h3>日常</h3>
+                    <p>索米与波波沙</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="49">
+                    <div class="av_img"><img src="img/026.jpg" alt="宁静日常" title="宁静日常" class="D10"></div>
+                    <h3>宁静日常</h3>
+                    <p>小酒馆中的M1加兰德</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="57">
+                    <div class="av_img"><img src="img/033.jpg" alt="404 NOT FOUND" title="404 NOT FOUND" class="D11"></div>
+                    <h3>404 NOT FOUND</h3>
+                    <p>404 NOT FOUND</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="108">
+                    <div class="av_img"><img src="img/a20.jpg" alt="前线剪影" title="前线剪影" class="D12"></div>
+                    <h3>前线剪影</h3>
+                    <p>AR小队</p>
+                </div>
+
+
+            </div><div class="mCSB_scrollTools" style="position: absolute; display: block;" ><div class="mCSB_draggerContainer"><div class="mCSB_dragger" style="position: absolute; height: 765px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="position: relative; line-height: 765px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div>
+        </div>
+
+        <div class="av_list clearfix" data-index="1" id="d2">
+            <div class="addScroll mCustomScrollbar _mCS_2"><div class="mCustomScrollBox mCS-light" id="mCSB_2" style="position:relative; height:100%; overflow:hidden; max-width:100%;"><div class="mCSB_container mCS_no_scrollbar" style="position:relative; top:0;">
+
+                <div class="av_item pic" data-id="83">
+                    <div class="av_img"><img src="img/000.jpg" alt="最后一击" title="最后一击"></div>
+                    <h3>最后一击</h3>
+                    <p>如此心痛！</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="84">
+                    <div class="av_img"><img src="img/001.jpg" alt="着重培养" title="着重培养"></div>
+                    <h3>着重培养</h3>
+                    <p>呀！索米！</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="85">
+                    <div class="av_img"><img src="img/002.jpg" alt="反抗命运" title="反抗命运"></div>
+                    <h3>反抗命运</h3>
+                    <p>我选择死亡！</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="86">
+                    <div class="av_img"><img src="img/003.jpg" alt="移动光源" title="移动光源"></div>
+                    <h3>移动光源</h3>
+                    <p>她的精神永存</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="87">
+                    <div class="av_img"><img src="img/004.jpg" alt="格里芬！我还未败" title="格里芬！我还未败"></div>
+                    <h3>格里芬！我还未败</h3>
+                    <p>神烦的UMP9</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="88">
+                    <div class="av_img"><img src="img/005.jpg" alt="挥之不去的心理阴影" title="挥之不去的心理阴影"></div>
+                    <h3>挥之不去的心理阴影</h3>
+                    <p></p>
+                </div>
+
+
+                <div class="av_item pic" data-id="89">
+                    <div class="av_img"><img src="img/007.jpg" alt="行动代号" title="行动代号"></div>
+                    <h3>行动代号</h3>
+                    <p>魔方行动~</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="90">
+                    <div class="av_img"><img src="img/9.jpg" alt="我是谁" title="我是谁"></div>
+                    <h3>我是谁</h3>
+                    <p>我是谁</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="91">
+                    <div class="av_img"><img src="img/92.jpg" alt="我是谁" title="我是谁"></div>
+                    <h3>我是谁</h3>
+                    <p>我是谁</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="92">
+                    <div class="av_img"><img src="img/9.jpg" alt="9>45" title="9>45"></div>
+                    <h3>9&gt;45</h3>
+                    <p>9》45</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="110">
+                    <div class="av_img"><img src="img/1(9).jpg" alt="long ago" title="long ago"></div>
+                    <h3>long ago</h3>
+                    <p>404 not found</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="111">
+                    <div class="av_img"><img src="img/005Oy3NZgy1fcoqmiuc14j30vi265wr3.jpg" alt="元宵夜" title="元宵夜"></div>
+                    <h3>元宵夜</h3>
+                    <p>年夜迎春</p>
+                </div>
+
+
+            </div><div class="mCSB_scrollTools" style="position: absolute; display: none;" ><div class="mCSB_draggerContainer"><div class="mCSB_dragger" style="position: absolute; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="position:relative;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div>
+        </div>
+
+        <div class="av_list clearfix" data-index="2" id="d3">
+            <div class="addScroll mCustomScrollbar _mCS_3"><div class="mCustomScrollBox mCS-light" id="mCSB_3" style="position:relative; height:100%; overflow:hidden; max-width:100%;"><div class="mCSB_container mCS_no_scrollbar" style="position:relative; top:0;">
+
+                <div class="av_item pic" data-id="11">
+                    <div class="av_img"><img src="img/1%20(2).png" alt="登录壁纸" title="登录壁纸"></div>
+                    <h3>登录壁纸</h3>
+                    <p>404小队</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="12">
+                    <div class="av_img"><img src="img/1%20(1).png" alt="登录壁纸" title="登录壁纸"></div>
+                    <h3>登录壁纸</h3>
+                    <p>AR小队</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="24">
+                    <div class="av_img"><img src="img/dongh.jpg" alt="登录壁纸" title="登录壁纸"></div>
+                    <h3>登录壁纸</h3>
+                    <p>冬日战争版本</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="25">
+                    <div class="av_img"><img src="img/ump.jpg" alt="节日壁纸" title="节日壁纸"></div>
+                    <h3>节日壁纸</h3>
+                    <p>UMP姐妹情人节</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="30">
+                    <div class="av_img"><img src="img/ump45.jpg" alt="手机壁纸" title="手机壁纸"></div>
+                    <h3>手机壁纸</h3>
+                    <p>UMP45</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="293">
+                    <div class="av_img"><img src="img/1(26).jpg" alt="冬活壁纸" title="冬活壁纸"></div>
+                    <h3>冬活壁纸</h3>
+                    <p>16哥帅照</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="294">
+                    <div class="av_img"><img src="img/2(25).jpg" alt="冬活壁纸" title="冬活壁纸"></div>
+                    <h3>冬活壁纸</h3>
+                    <p>16哥我是你粉丝</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="295">
+                    <div class="av_img"><img src="img/3(20).jpg" alt="冬活壁纸" title="冬活壁纸"></div>
+                    <h3>冬活壁纸</h3>
+                    <p>我投降啦！</p>
+                </div>
+
+
+                <div class="av_item pic" data-id="296">
+                    <div class="av_img"><img src="img/21.png" alt="冬活壁纸" title="冬活壁纸"></div>
+                    <h3>冬活壁纸</h3>
+                    <p>原来你也在这里</p>
+                </div>
+
+
+            </div><div class="mCSB_scrollTools" style="position: absolute; display: none;" ><div class="mCSB_draggerContainer"><div class="mCSB_dragger" style="position: absolute; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="position:relative;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div>
+        </div>
+
+        <div class="av_list clearfix" data-index="3" id="d4">
+            <div class="addScroll mCustomScrollbar _mCS_4"><div class="mCustomScrollBox mCS-light" id="mCSB_4" style="position:relative; height:100%; overflow:hidden; max-width:100%;"><div class="mCSB_container mCS_no_scrollbar" style="position:relative; top:0;">
+
+                <div class="av_item pic" data-id="223">
+                    <div class="av_img"><img src="img/1(18).jpg" alt="UMP45-额" title="UMP45-额"></div>
+                    <h3>UMP45-额</h3>
+                    <p></p>
+                </div>
+
+
+                <div class="av_item pic" data-id="224">
+                    <div class="av_img"><img src="img/2(17).jpg" alt="UMP45-惊讶" title="UMP45-惊讶"></div>
+                    <h3>UMP45-惊讶</h3>
+                    <p></p>
+                </div>
+
+
+                <div class="av_item pic" data-id="225">
+                    <div class="av_img"><img src="img/3(12).jpg" alt="UMP45-开心" title="UMP45-开心"></div>
+                    <h3>UMP45-开心</h3>
+                    <p></p>
+                </div>
+
+
+                <div class="av_item pic" data-id="226">
+                    <div class="av_img"><img src="img/4(6).jpg" alt="UMP45-懵逼" title="UMP45-懵逼"></div>
+                    <h3>UMP45-懵逼</h3>
+                    <p></p>
+                </div>
+
+
+                <div class="av_item pic" data-id="227">
+                    <div class="av_img"><img src="img/5(3).jpg" alt="UMP45-生气" title="UMP45-生气"></div>
+                    <h3>UMP45-生气</h3>
+                    <p></p>
+                </div>
+
+
+                <div class="av_item pic" data-id="228">
+                    <div class="av_img"><img src="img/6(2).jpg" alt="UMP45-思考中" title="UMP45-思考中"></div>
+                    <h3>UMP45-思考中</h3>
+                    <p></p>
+                </div>
+
+
+                <div class="av_item pic" data-id="229">
+                    <div class="av_img"><img src="img/7(1).jpg" alt="UMP45-委屈" title="UMP45-委屈"></div>
+                    <h3>UMP45-委屈</h3>
+                    <p></p>
+                </div>
+
+
+                <div class="av_item pic" data-id="230">
+                    <div class="av_img"><img src="img/8.jpg" alt="UMP45-无语" title="UMP45-无语"></div>
+                    <h3>UMP45-无语</h3>
+                    <p></p>
+                </div>
+
+
+                <div class="av_item pic" data-id="231">
+                    <div class="av_img"><img src="img/9(1).jpg" alt="UMP45-正常" title="UMP45-正常"></div>
+                    <h3>UMP45-正常</h3>
+                    <p></p>
+                </div>
+
+
+                <div class="av_item pic" data-id="235">
+                    <div class="av_img"><img src="img/1(19).jpg" alt="9A91-惊讶" title="9A91-惊讶"></div>
+                    <h3>9A91-惊讶</h3>
+                    <p></p>
+                </div>
+
+
+                <div class="av_item pic" data-id="236">
+                    <div class="av_img"><img src="img/2(18).jpg" alt="9A91-开心" title="9A91-开心"></div>
+                    <h3>9A91-开心</h3>
+                    <p></p>
+                </div>
+
+
+                <div class="av_item pic" data-id="237">
+                    <div class="av_img"><img src="img/3(13).jpg" alt="9A91-懵逼" title="9A91-懵逼"></div>
+                    <h3>9A91-懵逼</h3>
+                    <p></p>
+                </div>
+
+
+            </div><div class="mCSB_scrollTools" style="position: absolute; display: none;"><div class="mCSB_draggerContainer"><div class="mCSB_dragger" style="position: absolute; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="position:relative;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div>
+        </div>
+
+<div class="mask"></div>
+
+
+    </div>
+    <div class="scroll_tag" title="点击加载更多"></div>
+</div>
+
+
+
+<footer>
+    <div class="footer">
+        <div class="mfooter">
+            <div class="foot_contentup">
+                <ul class="foot_list">
+                    <li><a href="">关于数字天空</a><span>|</span></li>
+                    <li><a href="">服务条款</a><span>|</span></li>
+                    <li><a href="">用户协议</a><span>|</span></li>
+                    <li><a href="">商务合作</a><span>|</span></li>
+                    <li><a href="">加入我们</a><span>|</span></li>
+                    <li><a href="">联系我们</a></li>
+                </ul>
+                <p>© 2017 成都数字天空科技有限公司 版权所有</p>
+            </div>
+            <div class="foot_contentm">
+                <p>抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防受骗上当，适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活</p>
+                <p><a href="">川网文〔2017〕2374-076号</a></p>
+                <p><a href="">文网游备字〔2016〕Ｍ-RPG 2772 号</a> | 新广出审[2016]4101 号 | ISBN 978-7-7979-2736-9</p>
+                <p>全国文化市场统一举报电话：12318</p>
+            </div>
+            <div class="foot_contentb">
+                <ul>
+                    <li><a href="" class="fwico1"></a>&nbsp;</li>
+                    <li><a href="" class="fwico2"></a>&nbsp;</li>
+                </ul>
+                <p>
+                    |&nbsp;&nbsp;适龄提示：本游戏适合18岁以上的玩家进入
+                    <a href="">家长监护工程 ></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="paint_box mask_box" style="display: none;">
+    <img src="" alt="登录壁纸" title="登录壁纸">
+</div>
+<script>
+$(".av_img img").on("click",function(){
+    var $src=$(this).attr("src")
+    $(".mask_box img").attr("src",$src)
+    $(".mask_box").css("display","block")
+
+if($(".mask_box img").width()>$(window).width()){
+    $(".mask_box img").css("width","1311").css("height","auto");
+}else if($(".mask_box img").height()>$(window).height()){
+    $(".mask_box img").css("width","auto").css("height","969");
+}else{$(".mask_box img").css("width","auto").css("height","auto");
+}
+$(".mask").css("display","block")
+})
+
+
+
+$(".mask_box img").on("click",function(){
+    $(".mask_box").css("display","none")
+    $(".mask_box img").css("width","").css("height","");
+    $(".mask_box img").attr("src","")
+    $(".mask").css("display","")
+})
+
+
+$('.scroll_tag').on("click",function(){
+    $(this).css("display","none")
+})
+
+$(".av_menu a").on("click",function(){
+    $(this).siblings().removeClass("on")
+    $(this).addClass("on")
+    var $id=$(this).attr("data-target")
+    $id="#"+$id
+    $($id).css("display","block")
+    $($id).siblings().css("display","none")
+})
+</script>
+</body>
+</html>

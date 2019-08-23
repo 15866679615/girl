@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/getBrowserInfo.js"></script>
+    <link rel="stylesheet" href="css/project.css">
+    <style>
+        .xs{
+            display: block;
+        }
+        .yc{
+            display:none ;
+        }
+        .paint_box{
+            position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 9999;display:none;
+            width: 1115px;
+            height: auto;
+        }
+
+        .paint_box1{
+                position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 9999;display:none;
+                width: auto;
+                height: 969px
+            }
+
+
+    </style>
+</head>
+<body>
+<!--头部-->
+<nav class="nav_header">
+    <div class="container-fluid">
+        <!--logo图片-->
+        <div class="nav_logo">
+            <img src="img/logo.png" alt="少女前线">
+        </div>
+        <!--右边的三个按钮-->
+        <div class="nav_btn">
+            <a href="#" class="btn_login">登录</a>
+            <a href="#" class="btn_reg">注册</a>
+            <a href="javascript:" class="btn_query cxq ">账号自助查询</a>
+        </div>
+        <!--中间的导航栏-->
+        <div class="nav_nav clearfix">
+            <ul class="nav_ul">
+                <li class="active_btn"><a href="#">首页<span class="nav_bottom_line"></span></a></li>
+                <li class=""><a href="qbj.html">情报局<span class="nav_bottom_line"></span></a></li>
+                <li class=""><a href="http://www.gfwiki.org/w/%E9%A6%96%E9%A1%B5">图鉴<span class="nav_bottom_line"></span></a></li>
+                <li class=""><a href="tuce.html">图册<span class="nav_bottom_line"></span></a></li>
+                <li class=""><a href="#a5">世界观<span class="nav_bottom_line"></span></a></li>
+                <li class=""><a href="#a6">时间线<span class="nav_bottom_line"></span></a></li>
+                <li class=""><a href="https://bbs.nga.cn/thread.php?fid=-547859&rand=659" target="_blank">16LAB <br> 研究院<span class="nav_bottom_line"></span></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--头部结束-->
+<!--内容1-->
+<section class="banner1" id="a1">
+    <div class="bcontent">
+        <div class="videotheme">
+            <a href="javascript:" class="videobtn">
+                <span class="circle"></span>
+                <span class="range"></span>
+            </a>
+        </div>
+        <div class="downloadcontent">
+            <div class="vxdownload">
+                <img src="img/xiazai0706(1).png" alt="" style="width: 100%">
+                <div class="redmoveline"></div>
+            </div>
+            <div class="phonedownload">
+                <a href="" class="apdw"></a>
+                <a href="" class="addw"></a>
+            </div>
+            <div class="tapdw">
+                <a href="" class="taptap"></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--内容1结束-->
+<!--格里芬情报局-->
+<section class="banner2" id="a2">
+    <div class="lbgg">
+        <div class="container">
+            <div class="lb">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel" >
+                    <!--轮播图片-->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/634-363-2(1).jpg" alt="新枪报道">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/634-363-1.jpg" alt="新枪报道">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/634X363(2).jpg" alt="新枪报道">
+                        </div>
+                    </div>
+                    <!--轮播图片结束-->
+                    <!--指示器-->
+                    <ul class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="gg">
+            <a href="qbj.html" target="_blank" class="ggbt">
+                <span class="gonggao"></span>
+                <p>全新冬活【异构体】开启！ </p>
+                <span class="ggtime">2019.01.24</span>
+            </a>
+            <a href="qbj.html" target="_blank" class="ggbt">
+                <span class="gonggao"></span>
+                <p>【公告】关于恶意修改游戏客户端说明 </p>
+                <span class="ggtime">2018.08.30</span>
+            </a>
+            <a href="qbj.html" target="_blank" class="ggbt">
+                <span class="xinwen"></span>
+                <p>【全面制造概率提升】活动&【后勤大成功概率提升】活动即将开启！  </p>
+                <span class="ggtime">2019.01.30</span>
+            </a>
+            <a href="qbj.html" target="_blank" class="ggbt">
+                <span class="gonggao"></span>
+                <p>1月31日停机维护公告 </p>
+                <span class="ggtime">2019.01.30</span>
+            </a>
+            <a href="qbj.html" target="_blank" class="ggbt">
+                <span class="xinwen"></span>
+                <p>全新春节装扮第二期介绍！ </p>
+                <span class="ggtime">2019.01.29</span>
+            </a>
+            <a href="qbj.html" target="_blank" class="ggbt">
+                <span class="xinwen"></span>
+                <p> 全新纲领活动“金莲花开”即将开启！ </p>
+                <span class="ggtime">2019.01.29</span>
+            </a>
+            <a href="qbj.html" class="new_more">更多</a>
+        </div>
+    </div>
+</section>
+<!--格里芬情报局结束-->
+<!--人形少女图鉴--CHARACTER-->
+<section id="a3" class="index_character">
+    <div class="index_con">
+        <!--枪-->
+        <div class="gun">
+            <div class="gun_item" style=""><img src="img/gun_1.png"></div>
+            <div class="gun_item" style="display: none;"><img src="img/gun_2.png"></div>
+            <div class="gun_item" style="display: none;"><img src="img/gun_3.png"></div>
+            <div class="gun_item" style="display: none;"><img src="img/gun_4.png"></div>
+            <div class="gun_item" style="display: none;"><img src="img/gun_5.png"></div>
+            <div class="gun_item" style="display: none;"><img src="img/gun_6.png"></div>
+            <div class="gun_item"><img src="img/gun_7.png"></div>
+        </div>
+        <!--小人偶-->
+        <div class="doll">
+            <div class="doll_item doll_item1 active" style=""></div>
+            <div class="doll_item doll_item2" style="display: none;"></div>
+            <div class="doll_item doll_item3" style="display: none;"></div>
+            <div class="doll_item doll_item4" style="display: none;"></div>
+            <div class="doll_item doll_item5" style="display: none;"></div>
+            <div class="doll_item doll_item6" style="display: none;"></div>
+            <div class="doll_item doll_item7" style="display: none;"></div>
+        </div>
+        <!--人物介绍-->
+        <div class="introduce"><div class="introduce_item introduce_item1">		<h2 class="index_title">春田步枪--SPRINGFIELD</h2>		<p class="introduce_p"><span></span>春田：指挥官，春田能为您做什么，<br>请随时吩咐。</p></div></div>
+        <!--cv名-->
+        <div class="cv"><div>	<h2>CV</h2>	<div class="name">		<div class="name_item">崛江由衣</div>	</div>	<a class="btn_sound" href="javascript:;" title="点击播放"></a>	<audio id="audio">		<source src="M1903_GAIN_JP.mp3" type="audio/mp3">		<source src="M1903_GAIN_JP.mp3" type="audio/mp3">	  您的浏览器不支持 audio 元素。	</audio></div></div>
+        <!--头像-->
+        <div class="portrait">
+            <div class="portrait_swper">
+                <div class="portrait_con clearfix" style="left: 0px;">
+                    <div class="portrait_icon portrait_icon1 active"></div>
+                    <div class="portrait_icon portrait_icon2"></div>
+                    <div class="portrait_icon portrait_icon3"></div>
+                    <div class="portrait_icon portrait_icon4"></div>
+                    <div class="portrait_icon portrait_icon5"></div>
+                    <div class="portrait_icon portrait_icon6"></div>
+                    <!--<div class="portrait_icon portrait_icon7"></div>-->
+                </div>
+            </div>
+            <a class="icon_prev" href="javascript:;"></a>
+            <a class="icon_next" href="javascript:;"></a>
+            <!--<a class="icon_more" href="http://www.cvfes.com/girlsfrontline.html" target="_blank">更多 <span></span><span></span></a>-->
+        </div>
+        <!--角色-->
+        <div class="role">
+            <div class="role_item role_1 active" style=""></div>
+            <div class="role_item role_2" style="display: none;"></div>
+            <div class="role_item role_3" style="display: none;"></div>
+            <div class="role_item role_4" style="display: none;"></div>
+            <div class="role_item role_5" style="display: none;"></div>
+            <div class="role_item role_6" style="display: none;"></div>
+            <div class="role_item role_7" style="display: none;"></div>
+        </div>
+    </div>
+</section>
+<!--人形少女图鉴--CHARACTER结束-->
+<!--战地前线图册--GALLERY-->
+<div class="index_gallery" id="a4">
+    <div class="piccontent">
+        <div class="picnav" id="pic">
+            <a href="#" class="active" data-toggle="tab" data-target="wp">同人绘图<span></span></a>
+            <a href="#" data-toggle="tab" data-target="mh">四格漫画<span></span></a>
+            <a href="#" data-toggle="tab" data-target="bz">游戏壁纸<span></span></a>
+            <a href="#">查看更多<span></span></a>
+        </div>
+        <div class="piclist" id="wp">
+            <div class="wall">
+                <div class="wallpaper" >
+                    <div><img src="img/033.jpg" alt="" class="img1"></div>
+                    <div><img src="img/0068Xz9bgw1f5ud7ran59j30u70joafl.jpg" alt="" class="img2" ></div>
+                    <div class="img3"><img src="img/024.jpg" alt="" class="img3"></div>
+                    <div class="img4"><img src="img/6c8acad8gw1f5udab15yjj20rs0jmgoq.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="piclist" id="mh">
+            <div class="wall">
+                <div class="wallpaper" >
+                    <div><img src="img/003.jpg" alt="" class="img5"></div>
+                    <div><img src="img/002.jpg" alt="" class="img6"></div>
+                    <div><img src="img/001.jpg" alt="" class="img7"></div>
+                    <div><img src="img/000.jpg" alt="" class="img8"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="piclist" id="bz">
+            <div class="wall">
+                <div class="wallpaper" >
+                    <div style="margin-bottom: 20px"><img src="img/21.png" alt="" class="img9"></div>
+                    <div><img src="img/2(25).jpg" alt="" class="img10"></div>
+                    <div ><img src="img/3(20).jpg" alt="" class="img11"></div>
+                    <div><img src="img/1(26).jpg" alt="" class="img12"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--战地前线图册--GALLERY结束-->
+<!--世界观--WORLD VIEW-->
+<div class="index_view" id="a5">
+    <div class="container">
+        <div class="view carousel slide" id="demo" data-interval="false" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" >
+                    <div class="view_lf" >
+                        <h3>北兰岛事件</h3>
+                        <p>
+                            1905年，一处在东欧偶然发掘的未知生命遗迹，使得人类第一次接触坍塌与逆向坍塌。<br>
+                            直到2030年，一场几名中学生的小小冒险误闯了高度机密的遗迹，随后的救援发生意外。<br>
+                            引发了连锁事件，使得这项技术的核心物质——坍塌液全面泄露。由于封锁不力，坍塌液对外界造成了空前的破坏，城市蒸发，人口锐减，大量的生存空间被污染。<br>
+                            这场彻底改变世界面貌的可怕灾难，被称为北兰岛事件。
+                        </p>
+                    </div>
+                    <div class="view_rt"><img src="img/view_img1.jpg" alt=""/></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="view_lf" >
+                        <h3>第三次世界大战</h3>
+                        <p>
+                            北兰岛事件后，前所未有的恐怖灾变在地球上疯狂扩散。各国在仓皇挽救危机的同时，也在互相推脱和指责。最终，矛盾的裂痕达到了极点。2045年，为了争夺干净的土地和粮食——这份源于人类最纯真和野蛮的愿望，全球范围内的战争爆发，史称第三次世界大战。<br>
+                            战争之后的世界变得更加满目疮痍，文明秩序在生存的边缘苟延残喘。各地政权无法再维护人民的安全，使得大量安全承包商也应运而生。而大量区域遭到污染，不再适用居住和开采，这直接促使了机器和人工智能的技术进步。
+                        </p>
+                    </div>
+                    <div class="view_rt"><img src="img/view_img2.jpg" alt=""/></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="view_lf" >
+                        <h3>安全承包商(PMC)</h3>
+                        <p>
+                            第三次世界大战之后，现存的国家和组织为了减少财政开支和管理压力，只集中保护一些大型城市和工业基地。而对于其他小型城市和偏远地区，则采取竞标的方式，承包给私人军事组织。<br>
+                            在此种形式下，各种大小的安全承包企业应运而生，以维持地区安全的名义获得巨额利润，为安全承包商生产武器装备的工业公司也大范围建立了起来。起初，安全承包商的部队主要以人类雇佣兵组
+                        </p>
+                    </div>
+                    <div class="view_rt"><img src="img/view_img3.jpg" alt=""/></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="view_lf" >
+                        <h3>格里芬(GK))</h3>
+                        <p>
+                            2053年，由退伍军人克鲁格成立的安全承包公司，其运作资金主要由自身的人脉拉拢的政府和财团提供。起初，格里芬和其他安全承包商一样，以人类雇佣兵为主力部队。<br>
+                            但一年后，第一代战术人形问世，让克鲁格看到了新的可能。他希望购买战术人形作为格里芬的主要战斗力，以减少人类的伤亡。
+                        </p>
+                    </div>
+                    <div class="view_rt"><img src="img/view_img4.jpg" alt=""/></div>
+                </div>
+            </div>
+            <a href="#demo" class="left carousel-control"data-slide="prev" role="button">
+                <span class="glyphicon glyphicon-menu-left spans" aria-hidden="true"></span>
+            </a>
+            <a href="#demo" class="right carousel-control"data-slide="next">
+                <span class="glyphicon  glyphicon-menu-right spans" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+</div>
+<!--世界观--WORLD VIEW结束-->
+<!--时间线-->
+<div class="index_timeline" id="a6">
+    <div class="index_con">
+        <div class="timeline_waper">
+            <div class="timeline_con">
+                <div class="timeline_slider">
+                    <div class="timeline_img">
+                        <img src="img/line_light1.png" alt="" class="line_light1">
+                        <img src="img/line_light2.png" alt="" class="line_light2">
+                        <img src="img/line_light3.png" alt="" class="line_light3">
+                        <img src="img/line_light4.png" alt="" class="line_light4">
+
+                    </div>
+                </div>
+                <div class="timeline_prev">
+                    <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+                </div>
+                <div class="timeline_next" >
+                    <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                </div>
+            </div>
+        </div>
+        <div class="timeline_btn">
+            <a href="#" class="btn_juqing"></a>
+            <a href="#" class="btn_tansuodian"></a>
+        </div>
+    </div>
+</div>
+<!--时间线结束-->
+<!--这里是jio-->
+<footer>
+    <div class="footer">
+        <div class="mfooter">
+            <div class="foot_contentup">
+                <ul class="foot_list">
+                    <li><a href="">关于数字天空</a><span>|</span></li>
+                    <li><a href="">服务条款</a><span>|</span></li>
+                    <li><a href="">用户协议</a><span>|</span></li>
+                    <li><a href="">商务合作</a><span>|</span></li>
+                    <li><a href="">加入我们</a><span>|</span></li>
+                    <li><a href="">联系我们</a></li>
+                </ul>
+                <p>© 2017 成都数字天空科技有限公司 版权所有</p>
+            </div>
+            <div class="foot_contentm">
+                <p>抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防受骗上当，适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活</p>
+                <p><a href="">川网文〔2017〕2374-076号</a></p>
+                <p><a href="">文网游备字〔2016〕Ｍ-RPG 2772 号</a> | 新广出审[2016]4101 号 | ISBN 978-7-7979-2736-9</p>
+                <p>全国文化市场统一举报电话：12318</p>
+            </div>
+            <div class="foot_contentb">
+                <ul>
+                    <li><a href="" class="fwico1"></a>&nbsp;</li>
+                    <li><a href="" class="fwico2"></a>&nbsp;</li>
+                </ul>
+                <p>
+                    |&nbsp;&nbsp;适龄提示：本游戏适合18岁以上的玩家进入
+                    <a href="">家长监护工程 ></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!--弹出视频-->
+<div class="mask" ></div>
+<div class="video_box mask_box">
+    <div class="video_con" >
+        <video id="vdo" width="100%" height="100%" controls="controls">
+            <source src="SQ.mp4" type="video/mp4">
+        </video>
+    </div>
+    <a class="btn_close" href="javascript:;"></a>
+</div>
+
+<!--弹出图片-->
+<div><img src="img/033.jpg" alt="" class="paint_box img_1"></div>
+<div><img src="img/0068Xz9bgw1f5ud7ran59j30u70joafl.jpg" alt="" class="paint_box img_2"></div>
+<div><img src="img/024.jpg" alt="" class="paint_box img_3"></div>
+<div><img src="img/6c8acad8gw1f5udab15yjj20rs0jmgoq.jpg" alt="" class="paint_box img_4"></div>
+<div><img src="img/003.jpg" alt="" class="img_5 paint_box1"></div>
+<div><img src="img/002.jpg" alt="" class="img_6 paint_box1"></div>
+<div><img src="img/001.jpg" alt="" class="img_7 paint_box1"></div>
+<div><img src="img/000.jpg" alt="" class="img_8 paint_box1"></div>
+<div><img src="img/21.png" alt="" class="paint_box1 img_9"></div>
+<div><img src="img/2(25).jpg" alt="" class="paint_box1 img_10"></div>
+<div><img src="img/3(20).jpg" alt=""  class="paint_box1 img_11"></div>
+<div><img src="img/1(26).jpg" alt="" class="paint_box1 img_12"></div>
+
+<!--账号查询-->
+<div class="query_select_box query_box mask_box"  >
+    <h2 class="query_til">账号自助查询</h2>
+    <div class="query_tip">
+        <p>
+            <span>查询说明：</span><br>
+            1、请使用角色创建时的角色昵称进行查询，改名后的昵称进行查询可能会查询失败<br>
+            2、若查询失败，请联系客服进行人工查询客服qq：3448258979（AR-15）
+        </p>
+    </div>
+    <div class="query_select">
+        <div class="rows clearfix">
+            <label class="float_left">系统平台 ：</label>
+            <div class="sysSelect float_left">
+                <div class="sys_item float_left active bis" role="IOS系统">
+                    <i class="select_tag"><span></span></i>IOS
+                </div>
+                <div class="sys_item float_left ban" role="安卓系统">
+                    <i class="select_tag"><span></span></i>安卓
+                </div>
+            </div>
+        </div>
+        <div class="rows clearfix">
+            <label class="float_left">昵 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称 ：</label>
+            <input class="float_left q_name" placeholder="输入昵称">
+        </div>
+        <div class="rows clearfix">
+            <button id="btnQueryAccount" class="btn_queryAccount">查询</button>
+        </div>
+        <p class="q_tip" style="bottom: 119px;"></p>
+    </div>
+    <a class="btn_close query_close cxc" href="javascript:"></a>
+    <div class="box_toplt"></div>
+    <div class="box_bottomrt"></div>
+</div>
+
+<!--浮动导航栏-->
+<div class="float_nav" >
+    <div class="rt_line"></div>
+    <ul class="nav_tag">
+        <li class="active" id="d1">
+            <a href="#a1" class="">顶 部 </a><div class="nav_tab"><span></span></div>
+        </li>
+        <li id="d2">
+            <a href="#a2" class="">格里芬情报局 </a><div class="nav_tab"><span></span></div>
+        </li>
+        <li id="d3">
+            <a href="#a3" class="">人形少女图鉴 </a><div class="nav_tab"><span></span></div>
+        </li>
+        <li id="d4">
+            <a href="#a4" class="">战地前线图册 </a><div class="nav_tab"><span></span></div>
+        </li>
+        <li id="d5">
+            <a href="#a5" class="">世界观  </a><div class="nav_tab"><span></span></div>
+        </li>
+        <li id="d6">
+            <a href="#a6" class="">时间线 </a><div class="nav_tab"><span></span></div>
+        </li>
+    </ul>
+</div>
+<!--右侧-->
+<div class="float_focus">
+    <div class="focus_box" style="right: 0px;">
+        <div class="focus_con">
+            <div class="focus_weixing xs">
+                <h3>关注我们</h3>
+                <div class="focus_code"><img src="img/wechat200-200.jpg" width="100%" alt="官方公众号"></div>
+                <div class="focus_txt"><p>关注官方公众号</p></div>
+            </div>
+            <div class="focus_qqs yc" >
+                <div class="desc-wrapper">
+                    <div class="desc-inner">
+                        <div class="focus_txt"><p>官方QQ群</p></div>
+                        <dl>
+                            <dt>少女前线官方群SKS:</dt>
+                            <dd>302193393</dd>
+                            <dt>少女前线官方群98k:</dt>
+                            <dd>302441141</dd>
+                            <dt>少女前线官方群UMP9:</dt>
+                            <dd>462047002</dd>
+                            <dt>少女前线官方群AR15:</dt>
+                            <dd>302450275</dd>
+                            <dt>少女前线官方群M1918:</dt>
+                            <dd>410349092</dd>
+                        </dl>
+                        <div class="focus_txt"><p>QQ客服娘</p></div>
+                        <dl>
+                            <dt>官方QQ1:</dt>
+                            <dd>2754554711(M4A1)</dd>
+                            <dt>官方QQ2:</dt>
+                            <dd>3448076169(M4SOPMODII)</dd>
+                            <dt>官方QQ3:</dt>
+                            <dd>3448258979(AR-15)</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="q_tag_scroll" title="在文字区域内滚动鼠标~"><span></span></div>
+            </div>
+            <div class="focus_icon">
+                <a class="btn_focus_icon focus_qq" href="javascript:;" title="QQ"></a>
+                <a class="btn_focus_icon focus_wx" href="javascript:;" title="微信"></a>
+                <a class="btn_focus_icon focus_wb" href="https://weibo.com/shaonvqianxian?sudaref=www.baidu.com&amp;display=0&amp;retcode=6102" target="_blank" title="微博"></a>
+                <a class="btn_focus_icon focus_tb" href="https://tieba.baidu.com/f?kw=%C9%D9%C5%AE%C7%B0%CF%DF&amp;fr=ala0&amp;tpl=5" target="_blank" title="贴吧"></a>
+            </div>
+        </div>
+        <a class="btn_focus_hide" href="javascript:;"></a>
+    </div>
+    <a class="btn_focus_show" href="javascript:;">
+        <div class="focus_tag"><span></span></div>
+    </a>
+</div>
+
+
+
+
+<div class="fix_media clearfix">
+    <div>
+        <a class="media_item" href="http://www.duowan.com/" title="多玩游戏网" target="_blank">多玩游戏网</a>
+
+        <a class="media_item" href="http://news.4399.com/snqx/" title="4399" target="_blank">4399</a>
+
+        <a class="media_item" href="http://www.18183.com/snqx/" title="18183" target="_blank">18183</a>
+
+        <a class="media_item" href="http://www.gao7.com/snqx" title="搞趣网" target="_blank">搞趣网</a>
+
+        <a class="media_item" href="http://shouyou.gamersky.com/z/snqx/" title="游民星空" target="_blank">游民星空</a>
+
+        <a class="media_item" href="http://www.87g.com/snqx/" title="87G" target="_blank">87G</a>
+
+        <a class="media_item" href="http://www.yoyou.com/game/snqx/" title="优游网" target="_blank">优游网</a>
+
+        <a class="media_item" href="http://www.1688wan.com/svqx/" title="1688玩" target="_blank">1688玩</a>
+
+        <a class="media_item" href="http://www.18touch.com/zhuan/10313742" title="超好玩" target="_blank">超好玩</a>
+
+        <a class="media_item" href="http://gf.37man.com/" title="萌游姬" target="_blank">萌游姬</a>
+
+        <a class="media_item" href="http://gf.gdman.com/" title="钢蛋侠" target="_blank">钢蛋侠</a>
+
+        <a class="media_item" href="http://android.shouyoubus.com/app/2538242.html" title="手游巴士" target="_blank">手游巴士</a>
+
+        <a class="media_item" href="http://sj.xiaopi.com/snqx/" title="小皮" target="_blank">小皮</a>
+
+        <a class="media_item" href="http://www.youxidudu.com/syk/12486/" title="游戏嘟嘟" target="_blank">游戏嘟嘟</a>
+
+        <a class="media_item" href="http://www.yxboo.com/ios/45154.html" title="博游网" target="_blank">博游网</a>
+
+        <a class="media_item" href="http://www.pipaw.com/snqx/" title="琵琶网" target="_blank">琵琶网</a>
+
+        <a class="media_item" href="http://www.cvfes.com/girlsfrontline.html" title="声优系" target="_blank">声优系</a>
+
+        <a class="media_item" href="http://www.itmo.com/saonvqianx/" title="爱萌游戏" target="_blank">爱萌游戏</a>
+
+        <a class="media_item" href="https://www.bearead.com/" title="白熊阅读" target="_blank">白熊阅读</a>
+
+        <a class="media_item" href="http://www.ccplay.cc/package/115514.html" title="虫虫游戏" target="_blank">虫虫游戏</a>
+
+    </div>
+    <a class="media_close" href="javascript:;" onclick="closeMedia()">关闭浮窗</a>
+</div>
+
+<a class="btn_media" href="javascript:;">合作<br> 媒体</a>
+<script src="js/myjs.js"></script>
+</body>
+</html>
